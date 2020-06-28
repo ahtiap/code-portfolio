@@ -3,8 +3,20 @@
   padding: 0;
   margin: 0;
 }
+html, body{
+   background-color: whitesmoke;
+    height: 100%;
+    margin: 0px;
+}
 header{
     border-bottom-style: ridge;
+    background-color: white;
+}
+.contact
+{
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 0px;
 }
 .h1 {
   background-color: rgb(70, 182, 145);
