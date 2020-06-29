@@ -1,14 +1,15 @@
-* {
+*, ::after, ::before {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+
 }
+
 html, body{
+
+    font-size: 16px;
    background-color: whitesmoke;
-    height: 100%;
-    margin: 0px;
-    
+    margin: 0px;   
 }
+
 header{
     border-bottom-style: ridge;
     background-color: white;
@@ -27,6 +28,7 @@ form h2{
 }
 .contact
 {
+    max-width: 50%;
     margin-top: 20px;
     background-color: white;
     margin-left: 0px;
@@ -36,7 +38,7 @@ form h2{
 }
 .h1 {
   background-color: rgb(70, 182, 145);
-  
+ 
   color: white;
   text-align: center;
   padding: 13px;
@@ -65,21 +67,13 @@ li {
 .input{
     background-color: rgb(70, 182, 145);
     border-color: rgb(70, 182, 145);
-}
-.footer{
-  padding-left: 0px;
-}
-.foot{
-    bottom: 0px;
-    border-top: solid 3px;
-    margin-top: 17px;
-    border-top-color: rgb(70, 182, 145);
-    padding: 33px 0px 33px 0px;
-    color: white;
-    background-color: gray;
-    position: fixed;
-    width: 100%;
-    margin-left: 0px;
-    padding-left: 0%;
+
 }
 
+body, .sticky-footer-wrapper {
+  min-height:50vh;
+}
+
+.flex-fill {
+  flex:1 1 auto;
+}
