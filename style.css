@@ -30,7 +30,9 @@ form h2{
     margin-top: 20px;
     background-color: white;
     margin-left: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   
 }
 .h1 {
   background-color: rgb(70, 182, 145);
@@ -64,7 +66,9 @@ li {
     background-color: rgb(70, 182, 145);
     border-color: rgb(70, 182, 145);
 }
-
+.footer{
+  padding-left: 0px;
+}
 .foot{
     bottom: 0px;
     border-top: solid 3px;
@@ -75,5 +79,7 @@ li {
     background-color: gray;
     position: fixed;
     width: 100%;
+    margin-left: 0px;
+    padding-left: 0%;
 }
 
