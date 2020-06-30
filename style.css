@@ -30,7 +30,7 @@ form h2 {
 }
 
 .contact {
-  max-width: 50%;
+  max-width: 100%;
   margin-top: 20px;
   background-color: white;
   margin-left: 0px;
@@ -112,15 +112,22 @@ body,
   padding-bottom: 20px;
   border-bottom: solid;
 }
-.portfolio{
-    margin-bottom: 25px;
-    max-height: 200px;
+.portfolio {
+  margin-bottom: 25px;
+  max-height: 100%;
+  max-width: 100%;
 }
-.h3{
+.figure {
+  position: relative;
+}
+.h3 {
     position: absolute;
-    text-align: center;
+    width: 100%;
     background-color: rgb(70, 182, 145);
-    bottom: 47px;
-    padding: 10px 53px 10px 45px;
-    left: 16px;
+    /* bottom: 66px; */
+    /* left: 15px; */
     color: white;
+    text-align: center;
+    padding: 21px;
+    bottom: 50px;
+}
