@@ -107,10 +107,12 @@ body,
   border: lemonchiffon solid 2px;
 }
 
-.abouth2 {
+.abouth2,
+.prtfolioh2 {
   padding-left: 20px;
   padding-bottom: 20px;
   border-bottom: solid;
+  color: rgb(70, 182, 145);
 }
 .portfolio {
   margin-bottom: 25px;
@@ -121,13 +123,13 @@ body,
   position: relative;
 }
 .h3 {
-    position: absolute;
-    width: 100%;
-    background-color: rgb(70, 182, 145);
-    /* bottom: 66px; */
-    /* left: 15px; */
-    color: white;
-    text-align: center;
-    padding: 21px;
-    bottom: 50px;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(70, 182, 145);
+  /* bottom: 66px; */
+  /* left: 15px; */
+  color: white;
+  text-align: center;
+  padding: 21px;
+  bottom: 50px;
 }
