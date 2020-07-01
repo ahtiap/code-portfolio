@@ -9,5 +9,5 @@
 
 * All links works except the contact form. New functionalities will be added soon with Javascript and the design will be improved gradually.
 
-* Here is a screen shot of the main page as seen on a basic laptop screen size.
+* Here is a screen shot of the main page as seen on a basic laptop screen size: https://github.com/ahtiap/code-portfolio/blob/master/portfolio-screenshot.png?raw=true
 
