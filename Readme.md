@@ -1,4 +1,4 @@
-* This is a portfolio Website, that has three pages and uses botstrap and is responsive to all scree sizes.
+* This is a portfolio Website, that has three pages and uses botstrap and is responsive to all screen sizes.
 
 * Three pages are:
     * Main page (index.html)
