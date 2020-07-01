@@ -35,7 +35,10 @@
     <title>Portfolio</title>
   </head>
   <body>
+
+      <!-- header start -->
     <header class="container-fluid">
+        <!-- navigation bar start  -->
       <nav class="row">
         <h1 class="col-sm-3 h1 center">Ahmed</h1>
         <ul class="nav col-sm-8 center end">
@@ -51,22 +54,32 @@
           <li class="nav-item"></li>
         </ul>
       </nav>
+      <!-- navigation bar end  -->
     </header>
+    <!-- header end  -->
+
+    <!-- main content start  -->
     <main class="container main">
-      <section class="col-sm-8 aboutCard">
-        <div class="row">
+        <!-- 8 columns for the article to contain the about card  -->
+      <article class="col-sm-8 aboutCard">
+          <!-- first row containing about me header -->
+        <section class="row">
           <div class="col-12" style="margin-bottom: 30px; margin-top: 20px;">
             <h2 class="abouth2">About Me</h2>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12" style="margin-left: 18px;">
-            <img
-              class="aboutMe"
-              id="abcd"
-              src="pictures/family.JPG"
-              alt="my picture"
-            />
+        </section>
+        <!-- second row containg text and image  -->
+        <section class="row">
+          <section class="col-sm-12" style="margin-left: 18px;">
+            <figure>
+                <img
+                 class="aboutMe"
+                id="aboutmeimage"
+                src="pictures/family.JPG"
+                alt="my picture"
+                />
+            </figure>
+            
             <p
               style="
                 margin-right: 15px;
@@ -88,14 +101,18 @@
               aspernatur sapiente cum, ut ipsam dolor tenetur sequi eaque? Odit
               dolorum facilis ipsam harum.
             </p>
-          </div>
+        </section>
         </div>
-      </section>
+    </article>
+      <!-- end of the article  -->
     </main>
-    <!-- Footer -->
+    <!-- end of the main content  -->
 
-    <div class="d-flex flex-column sticky-footer-wrapper">
+    <!-- footer start  -->
+
+    <section class="d-flex flex-column sticky-footer-wrapper">
       <nav></nav>
+      <!-- space filler to get the sticky footer effect -->
       <main class="flex-fill"></main>
       <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
         <div class="container text-center">
@@ -107,7 +124,7 @@
           >
         </div>
       </footer>
-    </div>
-    <!-- Footer -->
+    </section>
+    <!-- Footer end -->
   </body>
 </html>

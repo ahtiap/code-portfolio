@@ -35,23 +35,29 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <nav class="row">
-        <h1 class="col-sm-3 h1 center">Ahmed</h1>
-        <ul class="nav col-sm-8 center end">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item"></li>
-        </ul>
-      </nav>
-    </header>
+     <!-- start header  -->
+     <header class="container-fluid">
+        <!-- navigation bar -->
+        <nav class="row">
+          <h1 class="col-sm-3 h1 center">Ahmed</h1>
+          <ul class="nav col-sm-8 center end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+        </nav>
+        <!-- end navigation bar -->
+      </header>
+      <!-- end header  -->
+
+      <!-- main content start  -->
     <main class="container-sm main">
       <form class="col-sm-7 contact">
         <h2>Contact</h2>
@@ -74,7 +80,7 @@
           />
         </section>
 
-        <section class=" form-group">
+        <section class="form-group">
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea
             class="form-control"
@@ -82,23 +88,30 @@
             rows="10"
           ></textarea>
         </section>
-        <section class=" form-group"><input class="btn btn-primary input" type="submit" value="Submit" />
+        <section class="form-group">
+          <input class="btn btn-primary input" type="submit" value="Submit" />
         </section>
       </form>
     </main>
+    <!-- main content end  -->
 
-    <!-- Footer -->
-    <div class="d-flex flex-column sticky-footer-wrapper">
-      <nav>
-      </nav>
-      <main class="flex-fill">
-      </main>
+    <!-- footer start  -->
+
+    <section class="d-flex flex-column sticky-footer-wrapper">
+      <nav></nav>
+      <!-- space filler to get the sticky footer effect -->
+      <main class="flex-fill"></main>
       <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
         <div class="container text-center">
-          <small>Copyright &copy; <a href="https://ahtiap.github.io/code-portfolio/index.html">Ahmed</a></small>
+          <small
+            >Copyright &copy;
+            <a href="https://ahtiap.github.io/code-portfolio/index.html"
+              >Ahmed</a
+            ></small
+          >
         </div>
       </footer>
-  </div>
-  <!-- Footer -->
+    </section>
+    <!-- Footer end -->
   </body>
 </html>
